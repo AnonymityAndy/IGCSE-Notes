@@ -4,11 +4,11 @@ Notes for my IGCSE courses.
 
 ## Table of Contents
 
-* [a relative link](./Biology/TOC.md)
-* [a relative link](./Chemistry/TOC.md)
-* [a relative link](./Computer Science/TOC.md)
-* [a relative link](./Economics/TOCṃd)
-* [a relative link](./History/TOC.md)
-* [a relative link](./Physics/TOC.md)
+* [Biology](./Biology/TOC.md)
+* [Chemistry](./Chemistry/TOC.md)
+* [Computer Science](./Computer\ Science/TOC.md)
+* [Economics](./Economics/TOCṃd)
+* [History](./History/TOC.md)
+* [Physics](./Physics/TOC.md)
 
 
