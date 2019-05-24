@@ -1,41 +1,53 @@
-\documentclass[11pt, a4paper]{report}
+\documentclass[12pt, a4paper, openany]{book}
 \usepackage{graphicx}
 \usepackage{colortbl}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{index}
 \usepackage[margin=1in]{geometry}
-% \usepackage{times}
+\usepackage[english]{babel}
+%\usepackage{times}
+
+\makeindex
+\title{\textbf{IGCSE Economics Subject Content 1}}
+\author{Ang Li, Frank}
+\date{\today}
 
 \begin{document}
 
+\pagenumbering{roman}
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE, RO]{\thepage}
+
+\maketitle
+\tableofcontents
+
 \chapter{The Basic Economic Problem}
 
+\blindmathtrue
+
 \section{The Nature of the Economic Problem}
-
-<++>
-
+\blindtext[1]
 \subsection{Finite Resources and Unlimited Wants}
-
-<++>
-
+\blindtext[1]
 \subsection{Economic and Free Goods}
-
-<++>
-
+\blindtext[1]
 \section{The Factors of Production}
-
-<++>
-
+\blindtext[1]
 \subsection{Definitions of the Factors of Productions and Their Rewards}
-
-<++>
-
+\blindtext[1]
 \section{Opportunity Cost}
-
-<++>
-
+\blindtext[1]
 \section{Production Possibility Curve Diagrams}
-
-<++>
+\blindtext[1]
 
 \end{document}
