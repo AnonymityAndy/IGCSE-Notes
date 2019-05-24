@@ -7,7 +7,7 @@ Notes for my IGCSE courses.
 * [Biology](./Biology/TOC.md)
 * [Chemistry](./Chemistry/TOC.md)
 * [Computer Science](./Computer%20Science/TOC.md)
-* [Economics](./Economics/TOC.ṃd)
+* [Economics](./Economics/TOC.md)
 * [History](./History/TOC.md)
 * [Physics](./Physics/TOC.md)
 
