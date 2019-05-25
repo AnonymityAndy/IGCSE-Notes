@@ -10,6 +10,7 @@
 \usepackage{fancyhdr}
 \usepackage{index}
 \usepackage{tcolorbox}
+\usepackage{booktabs}
 \usepackage[margin=1in]{geometry}
 \usepackage[english]{babel}
 %\usepackage{times}
@@ -22,6 +23,8 @@
 \begin{document}
 
 \pagenumbering{roman}
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
+
 \fancyhf{}
 \renewcommand{\headrulewidth}{2pt}
 \renewcommand{\footrulewidth}{1pt}
@@ -34,8 +37,6 @@
 
 \chapter{The Basic Economic Problem}
 
-\section{The Nature of the Economic Problem}
-
 \begin{tcolorbox}
 \textbf{Key points from this section:}
 \begin{enumerate}\itemsep0em
@@ -47,54 +48,147 @@
 \end{enumerate}
 \end{tcolorbox}
 
+\section{The Nature of the Economic Problem}
+
 \subsection{Finite resources and unlimited wants}
 
 \begin{itemize}\itemsep0em
 	\item \textbf{The basic economic problem:} How to allocate scarce resources to satisfy unlimited needs and wants.
-	\item \textbf{Scarcity:} Unlimited wants and not enough limited resources to fulfill the wants.
+	\item \textbf{Scarcity:} Unlimited wants and not enough resources to fulfill the wants.
 	\item \textbf{Unlimited wants:} The unlimited desires that people have.
 	\item \textbf{Limited resources:} The limited factors of production (resources) that we have on Earth.
+    \item \textbf{Needs:} Things which we require in order to survive.
+    \item \textbf{Wants:} Things that we do not need but want for enjoyment or utility.
+    \item \textbf{Basic economic questions:}
+        \begin{enumerate}\itemsep0em
+            \item What to product.
+            \item How to produce it.
+            \item For whom to produce it.
+        \end{enumerate}
 \end{itemize}
 
 \subsection{Economic and free goods}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Goods:} Physical items, e.g. books, computers, and food.
+    \item \textbf{Services:} Non-physical items, e.g. haircuts and internet access.
+    \item \textbf{Economic goods:} Goods that are limited in supply, e.g. cars, paper, and oil.
+    \item \textbf{Free goods:} Goods that are unlimited in suppy, e.g. air, sea, and public web pages.
+    \item \textbf{Economic agents:} Individuals, firms, and the government.
+\end{itemize}
 
 \section{The Factors of Production}
 
-<++>
-
 \subsection{Definitions of the factors of productions and their rewards}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Four factors of production:}
+        \begin{enumerate}\itemsep0em
+            \item \textbf{Land:} The natural resources required in a production process, e.g. wood and oil.
+            \item \textbf{Labor:} The human resources required in a production, e.g. skilled and unskilled labor.
+            \item \textbf{Capital:} The manufactured resources required in a production, e.g. machinery and tools.
+            \item \textbf{Enterprise:} The skills in a business person requires to manage the other three factors of production and the ability to undertake risks.
+        \end{enumerate}
+    \item \textbf{Four rewards to factors of production:}
+        \begin{enumerate}\itemsep0em
+            \item \textbf{Rent:} Reward or payment for \textit{land} resources.
+            \item \textbf{Wage/Salary:} Reward or payment for \textit{labor} resources.
+            \item \textbf{Interest:} Reward or payment for \textit{capital} resources.
+            \item \textbf{Profit:} Reward or payment for \textit{enterprise} resources.
+        \end{enumerate}
+\end{itemize}
 
 \subsection{Mobility of the factors of production}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Geographical mobility:} The ability of factors of productions (except land) to move around an area, region or country in order to work.
+    \item \textbf{Horizontal mobility:} The ability of factors of productions (mostly labor) to move from one occupation to another with the same social level.
+    \item \textbf{Occupational mobility:} The ability of factors of productions (mostly labor) to swtich career fields.
+\end{itemize}\itemsep0em
 
-\subsection{Quantity and quality of the factors of production}
-
-<++>
+%\subsection{Quantity and quality of the factors of production}
+%
+%\begin{itemize}\itemsep0em
+%    \item \textbf{Factors affecting the quatity of the factors of production:}
+%        \begin{enumerate}\itemsep0em
+%            \item
+%        \end{enumerate}
+%    \item \textbf{Factors affecting the quality of the factors of production:}
+%        \begin{enumerate}\itemsep0em
+%            \item
+%        \end{enumerate}
+%\end{itemize}
 
 \section{Opportunity Cost}
 
-<++>
-
 \subsection{Definition of opportunity cost}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Opportunity cost:} The next best alternative given up when making a decision. (Doesn't have to be money)
+        \begin{itemize}\itemsep0em
+            \item The opportunity cost of taking economics course is the other subject you would be studying instead.
+            \item The opportunity cost of playing games is the other things that you could be instead like studying.
+        \end{itemize}
+\end{itemize}
 
 \subsection{The influence of opportunity cost on decision making}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Consumers:} Purchasing one good causes opportunity cost of the other good.
+    \item \textbf{Producers:} Producing one good causes opportunity cost of the other good.
+    \item \textbf{Government:} Passing one policy causes opportunity cost of the other policy.
+\end{itemize}
+\newpage
 
 \section{Production Possibility Curve Diagrams (PPC)}
 
-<++>
-
 \subsection{Definition of PPC}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Production possibility curve:} A graph illustrating the production of two goods, used to display opportunity cost.
+
+    \begin{minipage}{0.45\textwidth}
+        \textbf{Keys:}
+        \begin{itemize}\itemsep0em
+            \item \textbf{A:} All resources dedicated to the production of good Y.
+            \item \textbf{B:} All resources dedicated to the production of good X.
+            \item \textbf{C:} Y\textsubscript{1} amount of good Y produced along with X\textsubscript{1} amount of good X.
+            \item \textbf{D:} Y\textsubscript{2} amount of goof Y produced along with X\textsubscript{2} amount of good X.
+            \item \textbf{E:} Resources are not allocated at the maximum efficiency.
+            \item \textbf{F:} This point of production is unattainable.
+        \end{itemize}
+    \end{minipage}
+    \begin{minipage}{0.3\textwidth}
+        \begin{tikzpicture}[scale=1.2]
+            \draw (0,5) node [left] {$GoodY$} -- (0,0) node [below left] {$0$} -- (5.5,0) node [below] {$GoodX$};
+            \draw (0,4.1) to [out=-5, in=140] (2.8,3.1) to [out=-40, in=105] (4.8,0);
+            \node [left] at (0,4.1) {$A$};
+            \draw [fill] (0,4.1) circle [radius=.05];
+            \node [above left] at (4.7,0) {$B$};
+            \draw [fill] (4.8,0) circle [radius=.05];
+            \node [above right] at (2.7,3.2) {$C$};
+            \draw [fill] (2.7,3.2) circle [radius=.05];
+            \node [above] at (4.1,2) {$D$};
+            \draw [fill] (3.9,2) circle [radius=.05];
+            \draw [dashed] (0,3.2) -- (2.7,3.2);
+            \node [left] at (0,3.2) {$Y\textsubscript{1}$};
+            \draw [fill] (0,3.2) circle [radius=.05];
+            \draw [dashed] (0,2) -- (3.9,2);
+            \node [left] at (0,2) {$Y\textsubscript{2}$};
+            \draw [fill] (0,2) circle [radius=.05];
+            \draw [dashed] (2.7,3.2) -- (2.7,0);
+            \node [left] at (3,-0.3) {$X\textsubscript{1}$};
+            \draw [fill] (2.7,0) circle [radius=.05];
+            \draw [dashed] (3.9,2) -- (3.9,0);
+            \node [left] at (4.2,-0.3) {$X\textsubscript{2}$};
+            \draw [fill] (3.9,0) circle [radius=.05];
+            \node [left] at (2,1.6) {$E$};
+            \draw [fill] (2,1.6) circle [radius=.05];
+            \node [left] at (4,4) {$F$};
+            \draw [fill] (4.2,4) circle [radius=.05];
+        \end{tikzpicture}
+    \end{minipage}
+\end{itemize}
 
 \subsection{Points under, on, and beyond a PPC}
 
