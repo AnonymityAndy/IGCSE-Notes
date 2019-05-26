@@ -18,7 +18,8 @@
 \makeindex
 \title{\textbf{IGCSE Economics Subject Content 1}}
 \author{Ang Li, Frank}
-\date{\today}
+\date{May 26, 2019}
+\usetikzlibrary{decorations.pathreplacing}
 
 \begin{document}
 
@@ -146,8 +147,8 @@
 
 \begin{itemize}\itemsep0em
     \item \textbf{Production possibility curve:} A graph illustrating the production of two goods, used to display opportunity cost.
-    \item It is a graph with the number of production of two goods as the two axies, where the two goods share a certain factor of production to produce.\
-    Thus, resulting in a downward sloping curve.
+    \item It is a graph with the number of production of two goods as the two axies, where the two goods share a certain factor of
+        production to produce. Thus, resulting in a downward sloping curve.
     \item \textbf{Two types of PPC}
         \begin{figure}[!h]
             \centering
@@ -182,12 +183,12 @@
         \begin{itemize}[leftmargin=*]\itemsep0em
 %            \item \textbf{Y-axis} The number of production of good Y.
 %            \item \textbf{X-axis} The number of production of good X
-            \item \textbf{Point A:} All resources dedicated to the production of good Y.
-            \item \textbf{Point B:} All resources dedicated to the production of good X.
-            \item \textbf{Point C:} Y\textsubscript{1} amount of good Y produced along with X\textsubscript{1} amount of good X.
-            \item \textbf{Point D:} Y\textsubscript{2} amount of goof Y produced along with X\textsubscript{2} amount of good X.
-            \item \textbf{Point E:} Resources are not allocated at the maximum efficiency.
-            \item \textbf{Point F:} This point of production is unattainable. (Not enough resources)
+            \item \textit{Point A:} All resources dedicated to the production of good Y.
+            \item \textit{Point B:} All resources dedicated to the production of good X.
+            \item \textit{Point C:} $X_1$ amount of good X produced along with $Y_1$ amount of good Y.
+            \item \textit{Point D:} $X_2$ amount of good X produced along with $Y_2$ amount of good Y.
+            \item \textit{Point E:} Resources are not allocated at the maximum efficiency.
+            \item \textit{Point F:} This point of production is unattainable. (Not enough resources)
         \end{itemize}
     \end{minipage}
     \hspace{0.3cm}
@@ -204,16 +205,16 @@
             \node [above] at (4.1,2) {$D$};
             \draw [fill] (3.9,2) circle [radius=.05];
             \draw [dashed] (0,3.2) -- (2.7,3.2);
-            \node [left] at (0,3.2) {$Y\textsubscript{1}$};
+            \node [left] at (0,3.2) {$Y_1$};
             \draw [fill] (0,3.2) circle [radius=.05];
             \draw [dashed] (0,2) -- (3.9,2);
-            \node [left] at (0,2) {$Y\textsubscript{2}$};
+            \node [left] at (0,2) {$Y_2$};
             \draw [fill] (0,2) circle [radius=.05];
             \draw [dashed] (2.7,3.2) -- (2.7,0);
-            \node [left] at (3,-0.3) {$X\textsubscript{1}$};
+            \node [left] at (3,-0.3) {$X_1$};
             \draw [fill] (2.7,0) circle [radius=.05];
             \draw [dashed] (3.9,2) -- (3.9,0);
-            \node [left] at (4.2,-0.3) {$X\textsubscript{2}$};
+            \node [left] at (4.2,-0.3) {$X_2$};
             \draw [fill] (3.9,0) circle [radius=.05];
             \node [left] at (2,1.6) {$E$};
             \draw [fill] (2,1.6) circle [radius=.05];
@@ -226,7 +227,80 @@
 
 \subsection{Movements along a PPC}
 
-<++>
+\begin{itemize}\itemsep0em
+    \item \textbf{Movement along a PPC:} This happens when the producer alters its production.
+    \item For example, originally a company was producing at \textit{Point C}, which is $X_1$ amount of good X
+        and $Y_1$ amount of good Y.(\textit{Figure 1.4}) In this case the opportunity cost will be the amount of good Y
+        that was not produced, which is $OC_1$ $(A - Y_1)$.
+    \item After a while the company decides to change its production and produce at \textit{Point D} $(X_2, Y_2)$, this decision's
+        opportunity cost would be $OC_2$ $(Y_1 - Y_2)$ as the amount given up by this specific decision is $Y_1 - Y_2$.
+    \item This is a movement along the PPC from \textit{Point C} to \textit{Point D}.
+        \begin{figure}[!h]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \begin{tikzpicture}[scale=1]
+                    \draw (0,5) node [left] {$Y$} -- (0,0) node [below left] {$0$} -- (5.5,0) node [below] {$X$};
+                    \draw (0,4.1) to [out=-5, in=140] (2.8,3.1) to [out=-40, in=105] (4.8,0);
+                    \node [left] at (0,4.1) {$A$};
+                    \draw [fill] (0,4.1) circle [radius=.05];
+                    \node [above left] at (4.7,0) {$B$};
+                    \draw [fill] (4.8,0) circle [radius=.05];
+                    \node [above right] at (2.7,3.2) {$C$};
+                    \draw [fill] (2.7,3.2) circle [radius=.05];
+                    \node [above] at (4.1,2) {$D$};
+                    \draw [fill] (3.9,2) circle [radius=.05];
+                    \draw (0,3.2) -- (2.7,3.2);
+                    \node [left] at (0,3.2) {$Y_1$};
+                    \draw [fill] (0,3.2) circle [radius=.05];
+                    \draw [dashed] (0,2) -- (3.9,2);
+                    \node [left] at (0,2) {$Y_2$};
+                    \draw [fill] (0,2) circle [radius=.05];
+                    \draw (2.7,3.2) -- (2.7,0);
+                    \node [left] at (3,-0.3) {$X_1$};
+                    \draw [fill] (2.7,0) circle [radius=.05];
+                    \draw [dashed] (3.9,2) -- (3.9,0);
+                    \node [left] at (4.2,-0.3) {$X_2$};
+                    \draw [fill] (3.9,0) circle [radius=.05];
+                    \draw [decorate,decoration={brace,amplitude=5pt,mirror,raise=4pt},yshift=0pt] (0,3.2) -- (0,4.1)
+                        node [black,midway,xshift=0.7cm]{\footnotesize$OC_1$};
+                \end{tikzpicture}
+                \caption{Before}
+            \end{minipage}
+            \hspace{0.3cm}
+            \begin{minipage}{0.45\textwidth}
+                \begin{tikzpicture}[scale=1]
+                    \draw (0,5) node [left] {$Y$} -- (0,0) node [below left] {$0$} -- (5.5,0) node [below] {$X$};
+                    \draw (0,4.1) to [out=-5, in=140] (2.8,3.1) to [out=-40, in=105] (4.8,0);
+                    \node [left] at (0,4.1) {$A$};
+                    \draw [fill] (0,4.1) circle [radius=.05];
+                    \node [above left] at (4.7,0) {$B$};
+                    \draw [fill] (4.8,0) circle [radius=.05];
+                    \node [above right] at (2.7,3.2) {$C$};
+                    \draw [fill] (2.7,3.2) circle [radius=.05];
+                    \node [above] at (4.1,2) {$D$};
+                    \draw [fill] (3.9,2) circle [radius=.05];
+                    \draw [dashed] (0,3.2) -- (2.7,3.2);
+                    \node [left] at (0,3.2) {$Y_1$};
+                    \draw [fill] (0,3.2) circle [radius=.05];
+                    \draw (0,2) -- (3.9,2);
+                    \node [left] at (0,2) {$Y_2$};
+                    \draw [fill] (0,2) circle [radius=.05];
+                    \draw [dashed] (2.7,3.2) -- (2.7,0);
+                    \node [left] at (3,-0.3) {$X_1$};
+                    \draw [fill] (2.7,0) circle [radius=.05];
+                    \draw (3.9,2) -- (3.9,0);
+                    \node [left] at (4.2,-0.3) {$X_2$};
+                    \draw [fill] (3.9,0) circle [radius=.05];
+                    \draw [decorate,decoration={brace,amplitude=5pt,mirror,raise=4pt},yshift=0pt] (0,2) -- (0,3.2)
+                        node [black,midway,xshift=0.7cm]{\footnotesize$OC_2$};
+                    \draw [->] (1.5,3) -- (1.5,2.2);
+                    \draw [->] (2.9,1) -- (3.7,1);
+                    \draw [->] (3.1,3.3) -- (3.9,2.4);
+                \end{tikzpicture}
+                \caption{After}
+            \end{minipage}
+        \end{figure}
+\end{itemize}
 
 \subsection{Shifts in a PPC}
 
