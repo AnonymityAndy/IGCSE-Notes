@@ -11,4 +11,6 @@ Notes for my IGCSE courses.
 * [History](./History/TOC.md)
 * [Physics](./Physics/TOC.md)
 
+Special Thanks to Dylan Kelly for being such an inspiration
+
 
